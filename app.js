@@ -31,7 +31,7 @@ class Table {
 
   render(element) {
     let table =
-      "<table class='table table-hover'>" +
+      "<table class='table table-dark table-striped'>" +
       this.createHeader(this.init.columns) +
       this.createBody(this.init.data) +
       "</table>";
